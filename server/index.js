@@ -43,7 +43,7 @@ if (authRequired) {
   const pass = process.env.AUTH_PASS
   server.use('/', basicauth(user, pass));
   server.use('/level/*', basicauth(user, pass));
-  server.use(['/learnedemall', '/learnedeverything', '/return', '/nowwhat', '/credits'], basicauth(user, pass));
+  server.use(['/learnedemall', '/learnedeverything', '/return', '/nowwhat', '/credits', '/accessibility'], basicauth(user, pass));
 }
 
 const indexHtml = fs.readFileSync(path.join(__dirname, 'cached-home.html'), 'utf8');
@@ -54,7 +54,7 @@ server.get('/', (req, res) => {
 });
 
 server.get(
-  ['/level/*', '/learnedemall', '/learnedeverything', '/return', '/nowwhat', '/credits'],
+  ['/level/*', '/learnedemall', '/learnedeverything', '/return', '/nowwhat', '/credits', '/accessibility'],
   (req, res) => res.render('index', {env})
 );
 
