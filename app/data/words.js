@@ -1441,6 +1441,7 @@
   {
     "word": "데뷔",
     "translation": "debut",
+    "latin": "debwi",
     "image": {
       "url": "",
       "source": {
@@ -2903,7 +2904,7 @@
   {
     "word": "위험",
     "translation": "danger",
-    "latin": "",
+    "latin": "wiheom",
     "image": {
       "url": "",
       "source": {
@@ -2922,7 +2923,7 @@
   {
     "word": "외국인",
     "translation": "foreigner",
-    "latin": "",
+    "latin": "wehgukin",
     "image": {
       "url": "",
       "source": {
@@ -2941,6 +2942,7 @@
   {
     "word": "가위바위보",
     "translation": "rock, paper, scissors",
+    "latin": "gawibawibo",
     "image": {
       "url": "",
       "source": {
@@ -2959,7 +2961,7 @@
   {
     "word": "쥐",
     "translation": "mouse",
-    "latin": "",
+    "latin": "jwi",
     "image": {
       "url": "",
       "source": {
@@ -2978,7 +2980,7 @@
   {
     "word": "귀",
     "translation": "ear",
-    "latin": "",
+    "latin": "gwi",
     "image": {
       "url": "",
       "source": {
@@ -2997,7 +2999,7 @@
   {
     "word": "왼손",
     "translation": "left hand",
-    "latin": "",
+    "latin": "wehnson",
     "image": {
       "url": "",
       "source": {
@@ -3016,7 +3018,7 @@
   {
     "word": "괴물",
     "translation": "monster",
-    "latin": "",
+    "latin": "gwehmul",
     "image": {
       "url": "",
       "source": {
@@ -3035,7 +3037,7 @@
   {
     "word": "회사",
     "translation": "company",
-    "latin": "",
+    "latin": "hwehsa",
     "image": {
       "url": "",
       "source": {
