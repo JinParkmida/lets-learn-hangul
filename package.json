@@ -4,7 +4,7 @@
   "description": "Interactive lessons to learn Hangul in 30 minutes",
   "main": "server.js",
   "engines": {
-    "node": "6.16.0"
+    "node": ">=18"
   },
   "scripts": {
     "postinstall": "gulp build-prod",

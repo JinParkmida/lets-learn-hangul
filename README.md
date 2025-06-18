@@ -2,6 +2,9 @@
 Circa 2016 source code for letslearnhangul.com
 
 ### Developing locally
-- Use Node 6.
-- `gulp watch` to recompile after changes
-- `npm start` to run dev server -- serves compiles assets from public
+- Use a recent Node LTS (tested with Node 20).
+- `gulp watch` to recompile after changes.
+- `npm start` to run dev server -- serves compiled assets from `public`.
+
+### Accessibility
+Visit `/accessibility` for information on upcoming inclusive learning features such as high contrast and dyslexic-friendly modes.
